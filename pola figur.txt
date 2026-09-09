@@ -1,0 +1,46 @@
+# 1. kwadrat
+a = float(input("a = "))
+P = a*a
+print("P =", P)
+
+# 2. prostokat
+a = float(input("a = "))
+b = float(input("b = "))
+P = a*b
+print("P =", P)
+
+# 3. trojkat
+a = float(input("a = "))
+h = float(input("h = "))
+P = 0.5*a*h
+print("P =", P)
+
+# 4. rownoleglobok
+a = float(input("a = "))
+h = float(input("h = "))
+P = a*h
+print("P =", P)
+
+# 5. romb
+d1 = float(input("d1 = "))
+d2 = float(input("d2 = "))
+P = 0.5*d1*d2
+print("P =", P)
+
+# 6. trapez
+a = float(input("a = "))
+b = float(input("b = "))
+h = float(input("h = "))
+P = (a+b)*0.5*h
+print("P =", P)
+
+# 7. kolo
+p = math.pi
+r = float(input("r = "))
+P = p*r*r
+print("P =", P)
+
+# 8. szescian
+a = float(input("a = "))
+P = 6*a*a*a
+print("P =", P)
